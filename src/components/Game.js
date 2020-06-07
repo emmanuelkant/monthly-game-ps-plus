@@ -4,7 +4,8 @@ import { View, Text } from 'react-native';
 export const Game = props => {
   return (
     <View>
-      <Text>{props.name}</Text>
+      <Text>Name: {props.name}</Text>
+      <Text>Description: {props.description}</Text>
     </View>
   );
 };
