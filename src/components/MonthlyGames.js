@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Text, ScrollView } from 'react-native';
+import styled from 'styled-components';
 import { fetchHTML } from '../helpers/http';
 import { getGames } from '../helpers/game';
 import { connect } from 'react-redux';
@@ -29,11 +30,22 @@ const DumbComponent = () => {
   };
 
   return (
-    <ScrollView>
+    <ScrollViewUi>
       {renderGames()}
-      <Ads />
-    </ScrollView>
+      <AdsUi />
+    </ScrollViewUi>
   );
 };
+
+const ScrollViewUi = styled(ScrollView)`
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: red;
+`;
+
+const AdsUi = styled(Ads)`
+  margin-top: 300px;
+`;
 
 export const MonthlyGames = connect()(DumbComponent);
