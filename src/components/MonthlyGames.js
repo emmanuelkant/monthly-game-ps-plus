@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { Game } from './Game';
 import { Ads } from './Ads';
 
-const DumbComponent = props => {
+const DumbComponent = () => {
   const [games, setGames] = useState([]);
 
   const getMonthlyGames = async () => {
