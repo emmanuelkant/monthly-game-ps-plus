@@ -1,4 +1,4 @@
-export const getHTML = async () => {
+export const fetchHTML = async () => {
   try {
     const res = await fetch(
       'https://www.playstation.com/en-gb/explore/playstation-plus/this-month-on-ps-plus/',

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "351405604810",
+    "firebase_url": "https://monthygamespsplus.firebaseio.com",
+    "project_id": "monthygamespsplus",
+    "storage_bucket": "monthygamespsplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351405604810:android:87f9278889e59fc9101933",
+        "android_client_info": {
+          "package_name": "com.monthlypsplusgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351405604810-41fktle1q67nc23r2kua2gnboi88pudf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP6m4wmSu0NQNEtvDIV-u7UZeob8QpZjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351405604810-41fktle1q67nc23r2kua2gnboi88pudf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
